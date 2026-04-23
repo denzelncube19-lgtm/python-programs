@@ -1,0 +1,11 @@
+# Tuple Operations
+t = tuple(map(int, input("Enter numbers separated by spaces: ").split()))
+print(f"Tuple      : {t}")
+print(f"Length     : {len(t)}")
+print(f"Max        : {max(t)}")
+print(f"Min        : {min(t)}")
+print(f"Sum        : {sum(t)}")
+print(f"Sorted     : {sorted(t)}")
+num = int(input("Search for number: "))
+print(f"{num} appears {t.count(num)} time(s)")
+print(f"Index of {num}: {t.index(num) if num in t else 'Not found'}")

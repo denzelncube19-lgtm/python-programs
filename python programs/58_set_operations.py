@@ -1,0 +1,10 @@
+# Set Operations
+a = set(map(int, input("Enter elements for Set A: ").split()))
+b = set(map(int, input("Enter elements for Set B: ").split()))
+print(f"Set A         : {a}")
+print(f"Set B         : {b}")
+print(f"Union         : {a | b}")
+print(f"Intersection  : {a & b}")
+print(f"Difference A-B: {a - b}")
+print(f"Difference B-A: {b - a}")
+print(f"Symmetric Diff: {a ^ b}")
